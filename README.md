@@ -49,6 +49,9 @@ Base table: has 3 columns (id, actionType, and time). id is a unique identifier 
 main table:  has 7 columns. For each engine there is one column and an extra column used to store the current status of the device as Boolean. If the status is on, the value is true, otherwise it is false. The website uses only one row and updates it each time a new value is changed.
 
 How to run the files:
+
 -Download XAMPP or any equivalent software to run MySQL and PHP.
+
 -Import the database “robotarmcontrol.sql”.
+
 -Open “startConnection.php” file and change the values of the variables “$servername”, “$username”, “$password”, and “$dbname” according to your settings.
