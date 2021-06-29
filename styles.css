@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    font-size: 14px;
+    color: white;
+}
+
+.main {
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 30%);
+    border: 2px solid #bfbfbf;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.main:hover {
+    background-color: hsl(0, 0%, 35%);
+}
+td,th {
+    color: white;
+}
